@@ -1,0 +1,36 @@
+docker run -it --name PPL -v D:/HocTap/hoc_tap/PPL_votien/Template_BTL_PPL:/usr/src/PPL ubuntu
+
+docker ps -a
+
+docker start PPL
+
+docker exec -it PPL /bin/bash
+
+cd /usr/src/PPL
+
+export ANTLR_JAR="/usr/src/PPL/antlr-4.9.2-complete.jar"
+echo $ANTLR_JAR
+
+source myenv/bin/activate
+
+(dang trong myenv mode)
+python3 run.py gen		# generate required files
+
+# bat dau test, [test_case la optional]
+
+python3 run.py test LexerSuite [test_case]
+python3 run.py test ParserSuite [test_case]
+python3 run.py test ASTGenSuite [test_case]
+python3 run.py test CheckerSuite [test_case]
+python3 run.py test CodeGenSuite [test_case]
+
+
+
+docker ps -a
+docker start PPL
+docker exec -it PPL /bin/bash
+
+cd /usr/src/PPL
+source myenv/bin/activate
+
+
