@@ -1,4 +1,4 @@
-#2115257 Bui Le Van
+
 from MiniGoVisitor import MiniGoVisitor
 from MiniGoParser import MiniGoParser
 from AST import *
