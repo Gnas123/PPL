@@ -1,12 +1,4 @@
-"""
- * Initial code for Assignment 3
- * file : testunile.py
- * Programming Language Principles
- * Author: Võ Tiến
- * Link FB : https://www.facebook.com/Shiba.Vo.Tien
- * Link Group : https://www.facebook.com/groups/khmt.ktmt.cse.bku
- * Date: 07.01.2025
-"""
+
 
 from antlr4 import *
 from CodeGenerator import CodeGenerator
