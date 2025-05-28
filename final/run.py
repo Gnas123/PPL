@@ -1,21 +1,4 @@
-"""
- * Initial code for Assignment 3
- * file : run.py
- * Programming Language Principles
- * Author: Võ Tiến
- * Link FB : https://www.facebook.com/Shiba.Vo.Tien
- * Link Group : https://www.facebook.com/groups/khmt.ktmt.cse.bku
- * Date: 07.01.2025
- 
- * install extension ANTLR4 grammar syntax support, Better Comments
- * run code
-    Usage:
-    python3 run.py test CodeGenSuite [test_case]   # Run CodeGenSuite tests (test_case is optional)
 
-    Notes:
-    - Replace [test_case] with the specific test you want to run, e.g., test_1.
-    - If [test_case] is not provided, all tests in the suite will be executed.
-"""
 
 import sys
 import unittest
