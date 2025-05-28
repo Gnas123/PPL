@@ -1,11 +1,3 @@
-"""
- * Initial code for Assignment
- * Programming Language Principles
- * Author: Võ Tiến
- * Link FB : https://www.facebook.com/profile.php?id=100056605580171
- * Link Group : https://www.facebook.com/groups/211867931379013
- * Date: 02.04.2024
-"""
 import unittest
 from TestUtils import TestCodeGen
 import inspect
